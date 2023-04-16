@@ -20,7 +20,7 @@ async fn main() {
     let manager = RedisConnectionManager::new("redis://127.0.0.1/").unwrap();
 
     let pool = r2d2::Pool::builder()
-        .max_size(1)
+        .max_size(20)
         .build(manager)
         .unwrap();
 
