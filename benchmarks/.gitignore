@@ -1,0 +1,6 @@
+*.svg
+*.csv
+
+.ipynb_checkpoints/
+dataset-sample.parquet/
+__pycache__/
